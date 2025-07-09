@@ -1,0 +1,8 @@
+streamlit==1.46.1
+pandas
+numpy
+yfinance
+matplotlib
+scikit-learn
+tensorflow==2.11.0
+watchdog
