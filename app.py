@@ -1,7 +1,11 @@
 import os
 
-os.environ["STREAMLIT_HOME"] = "/tmp"
-os.environ["STREAMLIT_TELEMETRY"] = "0"
+# Avoid writing in non-writable directories in Hugging Face
+os.environ["XDG_CACHE_HOME"] = "/tmp"
+os.environ["XDG_CONFIG_HOME"] = "/tmp"
+os.environ["XDG_STATE_HOME"] = "/tmp"
+os.environ["STREAMLIT_BROWSER_GATHER_USAGE_STATS"] = "false"
+
 
 
 import numpy as np
