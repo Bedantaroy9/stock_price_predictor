@@ -1,11 +1,12 @@
 # Streamlit stock predictor requirements
 streamlit==1.46.1
 pandas==2.1.4
-numpy==1.24.3
+numpy==1.26.4         # or any 1.26.x version
 yfinance==0.2.33
 matplotlib==3.7.1
 scikit-learn==1.2.2
 tensorflow==2.11.0
+
 
 
 
