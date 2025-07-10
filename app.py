@@ -1,3 +1,9 @@
+import os
+
+os.environ["STREAMLIT_HOME"] = "/tmp"
+os.environ["STREAMLIT_TELEMETRY"] = "0"
+
+
 import numpy as np
 import pandas as pd
 import yfinance as yf
