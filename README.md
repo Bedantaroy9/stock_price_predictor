@@ -31,8 +31,8 @@ A real-time web application that predicts stock closing prices using an LSTM-bas
 
 1 Clone the repository
 ```
-git clone https://github.com/Bedantaroy9/Stock-Market-Price-Prediction.git
-cd Stock-Market-Price-Prediction
+https://github.com/Bedantaroy9/stock_price_predictor.git
+cd stock_price_predictor
 ```
 2 Install dependencies
 ```
@@ -43,11 +43,5 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
- ## Project Structure
-├── app.py                      # Main Streamlit app
-
-├── Stock Predictions Model.h5  # Trained LSTM model
-
-├── requirements.txt
-
-└── README.md
+## Live App
+https://bedantaroy-stock-price-prediction.hf.space/
